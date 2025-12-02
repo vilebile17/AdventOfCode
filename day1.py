@@ -26,7 +26,7 @@ def day1(data):
 
 
 def main():
-    with open("secret_code", "r") as f:
+    with open("secret_code-D1", "r") as f:
         file = f.readlines()
     print(day1(file))
 
