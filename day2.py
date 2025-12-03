@@ -1,3 +1,6 @@
+# https://adventofcode.com/2025/day/2
+
+
 def get_numbers(data):
     lst = []
     ranges = data.split(",")

@@ -1,3 +1,6 @@
+# https://adventofcode.com/2025/day/1
+
+
 def day1(data):
     def fix_accumulator(accumulator):
         if accumulator > 99:
