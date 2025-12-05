@@ -38,7 +38,7 @@ def clean_data(line):
 
 
 def main():
-    with open("joltage", "r") as f:
+    with open("joltage-D3", "r") as f:
         lines = f.readlines()
     lines = [clean_data(line) for line in lines]
     print(sum([find_largest_two(line) for line in lines]))
